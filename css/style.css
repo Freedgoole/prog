@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header {
+    height: 60px;
+    -webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+    -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.45);
+}
+.logo {
+    float: left;
+}
+.logo img{
+    height: 57px;
+}
+i.large {
+    font-size: 2rem;
+    position: relative;
+    top: 7px;
+}
+.case{
+    background-color: #82D1E1;
+    line-height: 60px;
+    padding: 0 3%;
+    float: right;
+    color: #fff;
+}
+.tel {
+    float: right;
+    background-color: #53B9D1;
+    color: #fff;
+    line-height: 30px;
+    padding: 0 3%;
+    margin: 1% 2%;
+}
+.tel i {
+    position: relative;
+    top: 6px;
+}
+h4, h2,p {
+    text-align: center;
+}
+h4 {
+    color: #82D1E1
+}
+p {
+    margin-bottom: 5%;
+}
+.card {
+    width: 50%;
+    float: left;
+    
+}
+.card .pic {
+    width: 50%;
+    float: left;
+}
+.card img{
+   width: 100%;
+}
+.text {
+    width: 50%;
+    float: right;
+}
+h5 {
+    font-weight: 600;
+    color: #9FD2F2;
+    font-size: 14px;
+}
+.text p {
+    text-align: left;
+}
+.price{
+    font-weight: 800;
+    color: #9FD2F2;
+    font-size: 18px;
+}
+.btn-price {
+    background-color: #53B9D1;
+    border: none;
+    color: #fff;
+    padding: 3% 15%;
+    margin: 8% 0;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+.card button i{
+    position: relative;
+    top: 6px;
+    left: -3px;
+}
+.card {
+    border: none;
+}
